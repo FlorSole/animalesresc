@@ -10,6 +10,28 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+ /*------ Inicio de Agregado por ERICK ----------*/
+
+.nombres {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+.descripciones {
+  text-align: center;
+}
+.grillaperros {
+
+}
+
+/*.filas{
+  justify-content: center;
+}*/
+
+/* ------ Final de Agregado por ERICK ------- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
