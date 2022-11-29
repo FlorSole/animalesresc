@@ -1,0 +1,16 @@
+.nombres{
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 0.5rem;
+  }
+  .descripciones{
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  .grillaperros{
+  
+  }
+  
+  /*.filas{
+    justify-content: center;
+  }*/

@@ -377,7 +377,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  appearance: button;
+  -webkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -435,7 +435,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  appearance: textfield;
+  -webkit-appearance: textfield;
 }
 
 /* rtl:raw:
@@ -447,7 +447,7 @@ legend + * {
 }
 */
 ::-webkit-search-decoration {
-  appearance: none;
+  -webkit-appearance: none;
 }
 
 ::-webkit-color-swatch-wrapper {
@@ -464,7 +464,7 @@ legend + * {
 
 ::-webkit-file-upload-button {
   font: inherit;
-  appearance: button;
+  -webkit-appearance: button;
 }
 
 output {
@@ -489,7 +489,6 @@ progress {
 }
 
 .lead {
-  text-align: center;
   font-size: 1.25rem;
   font-weight: 300;
 }
@@ -2489,8 +2488,8 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  print-color-adjust: exact;
-          
+  -webkit-print-color-adjust: exact;
+          color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
