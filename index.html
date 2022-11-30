@@ -3,8 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="description" content="Refuani Somos un grupo de personas comunes encargada del rescate de animales en situación de abandono." />
+        <meta name="author" content="Thonny, Flor, Erik, Ale" />
+        <meta name="copyrigth" content="Refuani, Todos los Derechos Reservados."/>
+        <meta name="keywords" content="Refugio, Animales, Mascotas, Perros, Gatos, DNI, Perdidos, Busqueda"/>
         <title>RefuAni</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/huellas/paw.png" />
@@ -20,7 +22,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#inicio">Inicio</a>
+                <a class="navbar-brand" href="../animalesresc/index.html">Inicio</a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -28,9 +30,8 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Adopta - Encuéntranos - Conócenos</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="adoptar/adoptarperros.html">Perros!</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="adoptar/adoptargatos.html">Gatos!</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="Nosotros/Nosotros.html">Nosotros</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="../animalesresc/nosotros/nosotros.html">Nosotros</a></li>
+                        
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contacto</a></li>
                         
                     </ul>
@@ -41,7 +42,7 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/documents/owner.png" alt="..." />
+                <img class="masthead-avatar mb-5" src="assets/img/documents/owner.png" alt="Perro con Dueño" />
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Refu Ani</h1>
                 <!-- Icon Divider-->
@@ -51,7 +52,9 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Los heroes de los sin Voz</p>
+                <p class="masthead-subheading font-weight-light mb-0"><i>-Los heroes de los sin Voz-<br>
+                    "Mi corazón está lleno de huellas".<br></i>
+                </p>
             </div>
         </header>
         <!-- Portfolio Section-->
@@ -73,7 +76,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/documents/desaparecido.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/documents/desaparecido.png" alt="Busqueda de Mascotas" />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
@@ -128,12 +131,16 @@
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">Nosotros</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white">
+                    <i>"Trata a los animales como te gustaría ser tratado".<br>
+                    "La lealtad de un animal no conoce límites".</i>
+                    </h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
+                    
                 </div>
                 <!-- About Section Content-->
             
@@ -164,26 +171,26 @@
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese su Nombre..." data-sb-validations="required" />
                                 <label for="name">Nombre Completo</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">Es necesario un Nombre.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" minlength="15" maxlength="40" />
                                 <label for="email">Correo electronico</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">Se requiere un Mail.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">El mail no es valido.</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <input class="form-control" id="phone" type="number" placeholder="(123) 456-7890" data-sb-validations="required" />
                                 <label for="phone">Número de Teléfono</label>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">Un número de teléfono es necesario.</div>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required" minlength="80"></textarea>
                                 <label for="message">Mensaje</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">Por favor escriba un mensaje.</div>
                             </div>
@@ -194,7 +201,7 @@
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">¡Formulario cargado con Exíto!</div>
-                                    Para enviar el formulario por favor registrese.
+                                    
                                     
                                 </div>
                             </div>
@@ -271,7 +278,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Encontrame!!!</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Encuentrame!</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -281,7 +288,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/gatos_y_perros/mascotas_perdidas.jpg" alt="Mascotas Perdidas" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">¡¡¡Tenemos los mejores detectives de mascotas del país para ayudarte a encontrar a tu amigo. No importa si fue robado, se escapó o simplemente se perdió, podemos encontrarlo!!!</p>
+                                    <p class="mb-4">¡Tenemos los mejores detectives de mascotas del país para ayudarte a encontrar a tu amigo. No importa si fue robado, se escapó o simplemente se perdió, podemos encontrarlo!</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Cerrar Ventana
@@ -303,7 +310,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mascotas Adoptadas!!!</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mascotas Adoptadas!</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -336,7 +343,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mascotas con DNI!!!</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mascotas con DNI!</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -346,7 +353,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/collares/mascotas_con_collares.jpg" alt="Mascotas con Dni" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Grabados de collares para mascotas personalizadas con nombre de identificación, número de teléfono grabado, collar personalizado para Masctoas pequeños, medianos y grandes, no te lo pierdas!!!</p>
+                                    <p class="mb-4">Grabados de collares para mascotas personalizadas con nombre de identificación, número de teléfono grabado, collar personalizado para Masctoas pequeños, medianos y grandes, no te lo pierdas!</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Cerrar Ventana
@@ -368,7 +375,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">RefuAni!!!</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">RefuAni!</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -408,7 +415,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Guau-Guauu Adoptame!!!</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Guau-Guauu Adoptame!</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -444,7 +451,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Miau-Miauu Adoptame!!!</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Miau-Miauu Adoptame!</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
